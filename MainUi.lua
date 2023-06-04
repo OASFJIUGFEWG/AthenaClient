@@ -136,7 +136,7 @@ function ret:Library(Name)
 	end
 	
 	uis.InputBegan:Connect(function(m3,m2)
-		if m3.KeyCode == Enum.KeyCode.RightControl and not m2 then
+		if m3.KeyCode == Enum.KeyCode.P and not m2 then
 			settings.vis = not settings.vis
 			for i,v in pairs(aui:GetChildren()) do
 				if v.Name:find("Window") then
