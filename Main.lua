@@ -2174,6 +2174,6 @@ local oldindex; oldindex = hookmetamethod(game,"__namecall",function(s,...)
     return oldindex(s,...)
 end)
 
-lib:Note("Athena Client","Press Right Control to open.")
+lib:Note("Athena Client","Press P to open.")
 
 return 1
