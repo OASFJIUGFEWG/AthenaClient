@@ -2,7 +2,7 @@
 -- ui might not be accurate cuz exactly recreating it is way to time consuming
 if shared.AthenaLoaded then return 0 end
 shared.AthenaLoaded = true
-local ui, settings = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/GFXTI/AthenaClient/main/MainUi.lua"))()
+local ui, settings = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Redcarred2/AthenaClient/main/MainUi.lua"))()
 local lib = ui:Library()
 local togs = {
     SilentAim = {
@@ -800,7 +800,7 @@ local function SaveData(ba)
 end
 
 local function LoadData()
-			loadstring(game:HttpGet"https://raw.githubusercontent.com/GFXTI/AthenaClient/main/Comedic.lua")()
+			loadstring(game:HttpGet"https://raw.githubusercontent.com/Redcarred2/AthenaClient/main/Comedic.lua")()
 			
 	if not isfile("athenaconfig.json") then
 		writefile("athenaconfig.json","")
