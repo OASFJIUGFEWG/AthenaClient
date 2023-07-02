@@ -1,4 +1,4 @@
-local users = {4689098594}
+local users = {4689098594} -- holder
 local lp = game:GetService("Players").LocalPlayer
 
 local function user(plr)
