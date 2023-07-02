@@ -2,7 +2,7 @@
 -- ui might not be accurate cuz exactly recreating it is way to time consuming
 if shared.AthenaLoaded then return 0 end
 shared.AthenaLoaded = true
-local ui, settings = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Redcarred2/AthenaClient/main/MainUi.lua"))()
+local ui, settings = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/OASFJIUGFEWG/AthenaClient/main/MainUi.lua"))()
 local lib = ui:Library()
 local togs = {
     SilentAim = {
